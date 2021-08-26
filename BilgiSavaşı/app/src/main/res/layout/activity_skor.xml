@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Genelarkaplan"
+    tools:context=".Skor">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SKOR"
+        android:fontFamily="@font/arbutus"
+        android:textSize="25dp"
+        android:textColor="@color/Turuncuarkaplan"
+        android:textAlignment="center">
+
+
+    </TextView>
+
+    <TextView
+        android:textColor="@color/TextYazıRengi"
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/arbutus"
+        android:text="Toplam Soru : ">
+
+    </TextView>
+
+    <TextView
+        android:textColor="@color/TextYazıRengi"
+        android:id="@+id/txtDogru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/arbutus"
+        android:text=" Dogru ">
+
+    </TextView>
+
+    <TextView
+        android:textColor="@color/TextYazıRengi"
+        android:id="@+id/txtYanlis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/arbutus"
+        android:text=" Yanlıs ">
+
+    </TextView>
+    <TextView
+        android:textColor="@color/TextYazıRengi"
+        android:id="@+id/txtSkor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/arbutus"
+        android:text=" Skor : ">
+
+    </TextView>
+
+<!--    <LinearLayout-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:orientation="horizontal">-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnKategori"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Kategori Seç">-->
+
+
+<!--    </Button>-->
+<!--&lt;!&ndash;    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/btnYenidendene"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_gravity="center_horizontal"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Yeniden Dene">&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;    </Button>&ndash;&gt;-->
+<!--    </LinearLayout>-->
+
+
+
+
+
+
+
+
+</LinearLayout>

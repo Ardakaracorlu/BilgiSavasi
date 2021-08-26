@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#817F7F"
+
+    android:gravity="center_horizontal"
+
+
+    >
+
+    <TextView
+
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Girişi"
+        android:textSize="35dp"
+        android:textStyle="bold|italic">
+    </TextView>
+    <EditText
+        android:id="@+id/etKullanici"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="İsim Giriniz"
+        android:textStyle="bold|italic"
+        android:ems="10">
+    </EditText>
+    <EditText
+        android:id="@+id/etSifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Şifre Giriniz"
+        android:ems="10">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnGiris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giris">
+        </Button>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtKayıtol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Ol"
+        android:textSize="20dp">
+
+    </TextView>
+
+
+</LinearLayout>

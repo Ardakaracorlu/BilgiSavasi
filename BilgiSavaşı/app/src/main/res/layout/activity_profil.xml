@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profil">
+
+
+    <TextView
+        android:id="@+id/txtKullaniciAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Adı : ">
+    </TextView>
+    <Button
+        android:id="@+id/BtnSifreDegistir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifre Değiştir">
+    </Button>
+    <Button
+        android:id="@+id/BtnEpostadegistir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-posta Değiştir">
+    </Button>
+    <Button
+        android:id="@+id/CikisYap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çıkış Yap">
+    </Button>
+
+</LinearLayout>

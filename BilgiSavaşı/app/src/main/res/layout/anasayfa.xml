@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Turuncuarkaplan">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/arbutus"
+        android:padding="10dp"
+        android:text="BİLGİ SAVAŞI"
+        android:textColor="@color/TextYazıRengi"
+        android:textSize="30dp">
+    </TextView>
+
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/btnTekoyuncu"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Tek Oyuncu"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:background="@color/butonrengi"
+        android:fontFamily="@font/arbutus">
+    </Button>
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnçokoyuncu"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Çok Oyuncu"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:background="@color/butonrengi"
+        android:fontFamily="@font/arbutus">
+    </Button>
+    <Button
+
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnHakkında"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Hakkında"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:background="@color/butonrengi"
+        android:fontFamily="@font/arbutus">
+    </Button>
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnÇikis"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Çıkış"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:background="@color/butonrengi"
+        android:fontFamily="@font/arbutus">
+    </Button>
+
+</LinearLayout>

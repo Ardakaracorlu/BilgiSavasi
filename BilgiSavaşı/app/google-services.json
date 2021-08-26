@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "810558731966",
+    "firebase_url": "https://bilgisavasi-b9025.firebaseio.com",
+    "project_id": "bilgisavasi-b9025",
+    "storage_bucket": "bilgisavasi-b9025.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810558731966:android:e1dfc6f820ea7175e490ef",
+        "android_client_info": {
+          "package_name": "com.example.projem1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810558731966-1oa18vgtp7qkkt92ff9520mbeic9kg2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projem1",
+            "certificate_hash": "f1068f963663d84844031b337987f260eb5f6628"
+          }
+        },
+        {
+          "client_id": "810558731966-m6mdk39tsbm81ngq90880rd55ji5lqe9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADJm_Fir9m0vtFFI6qZnzgk2nkua_k1oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810558731966-m6mdk39tsbm81ngq90880rd55ji5lqe9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

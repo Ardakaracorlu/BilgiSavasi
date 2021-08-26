@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Turuncuarkaplan"
+    tools:context=".Kategorisecimi">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/arbutus"
+        android:padding="10dp"
+        android:text="BİLGİ SAVAŞI"
+        android:textColor="@color/TextYazıRengi"
+        android:textSize="30dp">
+    </TextView>
+
+
+    <Button
+        android:id="@+id/Spor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/spor"
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/Turuncuarkaplan"
+        android:fontFamily="@font/arbutus"
+        android:text="Spor   "
+        android:textColor="@color/TextYazıRengi"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Cografya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/cografya"
+        android:padding="20dp"
+        android:background="@color/Turuncuarkaplan"
+        android:fontFamily="@font/arbutus"
+        android:text="Cografya   "
+        android:textColor="@color/TextYazıRengi"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Sanat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/sanat1"
+        android:padding="20dp"
+        android:background="@color/Turuncuarkaplan"
+        android:fontFamily="@font/arbutus"
+        android:text="Sanat   "
+        android:textColor="@color/TextYazıRengi"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Tarih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/tarih"
+        android:background="@color/Turuncuarkaplan"
+        android:fontFamily="@font/arbutus"
+        android:text="Tarih   "
+        android:padding="20dp"
+        android:textColor="@color/TextYazıRengi"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Bilim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bilim"
+        android:padding="20dp"
+        android:background="@color/Turuncuarkaplan"
+        android:fontFamily="@font/arbutus"
+        android:text="Bilim   "
+        android:textColor="@color/TextYazıRengi"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Eglence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/eglence"
+        android:padding="20dp"
+        android:background="@color/Turuncuarkaplan"
+        android:fontFamily="@font/arbutus"
+        android:text="Eglence   "
+        android:textColor="@color/TextYazıRengi"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

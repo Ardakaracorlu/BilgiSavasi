@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="TextYazıRengi">#FFFFFF</color>
+    <color name="Genelarkaplan">#6F6968</color>
+    <color name="Turuncuarkaplan">#42C3EB</color>
+    <color name="butonrengi">#FAFAFA</color>
+    <color name="textrengi">#030303</color>
+</resources>

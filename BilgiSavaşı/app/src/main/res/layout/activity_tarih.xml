@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Genelarkaplan"
+    tools:context=".Tarih">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Yeni bir Soru ? "
+        android:textAlignment="center"
+        android:textColor="@color/textrengi"
+        android:background="@color/butonrengi"
+        android:textSize="25dp">
+    </TextView>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Cevap A"
+            android:textAlignment="center"
+            android:textColor="@color/textrengi"
+            android:background="@color/butonrengi">
+        </Button>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Cevap B"
+            android:textAlignment="center"
+            android:textColor="@color/textrengi"
+            android:background="@color/butonrengi">
+        </Button>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Cevap C"
+            android:textAlignment="center"
+            android:textColor="@color/textrengi"
+            android:background="@color/butonrengi">
+        </Button>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Cevap D"
+            android:textAlignment="center"
+            android:textColor="@color/textrengi"
+            android:background="@color/butonrengi">
+        </Button>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/TextYazıRengi">
+    </TextView>
+
+
+
+</LinearLayout>
